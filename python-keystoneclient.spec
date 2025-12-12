@@ -1,6 +1,6 @@
 Name:		python-keystoneclient
 Version:	5.5.0
-Release:	1
+Release:	2
 Source0:	https://files.pythonhosted.org/packages/source/p/python-keystoneclient/python-keystoneclient-%{version}.tar.gz
 Summary:	Client Library for OpenStack Identity
 URL:		https://pypi.org/project/keystoneclient/
