@@ -3,7 +3,7 @@
 
 Name:		python-keystoneclient
 Version:	5.8.0
-Release:	1
+Release:	2
 Summary:	Client Library for OpenStack Identity
 License:	Apache-2.0
 Group:		Development/Python
@@ -27,6 +27,9 @@ Identity Service. For command line interface support, use OpenStackClient.
 %prep -a
 # Remove bundled egg-info
 rm -rf %{oname}.egg-info
+
+%build -p
+export PBR_VERSION=%{version}
 
 %files
 %{py_sitedir}/%{module}
